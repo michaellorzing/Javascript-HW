@@ -46,7 +46,7 @@ var psychic=  {
     this.displayTurn();
   },
 
-//Establish what a turn will look like. Use the argument userInput to perform some conditionals. In the first conditional, if userInput is included in the choice array that's being aggregated in the above property, then the user is alerted that they already selected that key. In the second conditional, if the computer pick and user input are the same, the function is pushed to the choiceArray and then gets stopped by the return, at which point it goes to youWin below. Otherwise, it goes to the wrongAnswer method. 
+//Then we established what a turn will look like. In this method, we use the argument useInput to perform some conditionals. In the first conditional, if userInput is included in the choice array that's being aggregated in the above property, then the user is alerted that they already selected that key. In the second conditional, if the computer pick and user input are the same, the function is pushed to the choiceArray and then gets stopped by the return, at which point it goes to youWin below. Otherwise, it goes to the wrongAnswer method. 
 
   turn: function(userInput)  {
     if  (this.choiceArray.includes(userInput)){
